@@ -1,0 +1,4 @@
+actions: !!set
+  zero: null
+counter:
+  zero: 20

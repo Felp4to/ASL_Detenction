@@ -1,0 +1,10 @@
+actions: !!set
+  due: null
+  tre: null
+  uno: null
+  zero: null
+counter:
+  due: 20
+  tre: 5
+  uno: 5
+  zero: 5
