@@ -21,10 +21,19 @@ actions: !!set
   p: null
   q: null
   quattro: null
+  r: null
+  s: null
   sei: null
   sette: null
+  t: null
   tre: null
+  u: null
   uno: null
+  v: null
+  w: null
+  x: null
+  y: null
+  z: null
   zero: null
 counter:
   a: 100
@@ -49,8 +58,17 @@ counter:
   p: 100
   q: 100
   quattro: 100
+  r: 100
+  s: 100
   sei: 100
   sette: 100
+  t: 100
   tre: 100
+  u: 100
   uno: 100
+  v: 100
+  w: 100
+  x: 100
+  y: 100
+  z: 100
   zero: 100
