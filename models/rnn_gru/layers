@@ -1,0 +1,20 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ gru (GRU)                   (None, 30, 64)            331776
+
+ gru_1 (GRU)                 (None, 30, 128)           74496
+
+ gru_2 (GRU)                 (None, 64)                37248
+
+ dense (Dense)               (None, 64)                4160
+
+ dense_1 (Dense)             (None, 32)                2080
+
+ dense_2 (Dense)             (None, 58)                1914
+
+=================================================================
+Total params: 451674 (1.72 MB)
+Trainable params: 451674 (1.72 MB)
+Non-trainable params: 0 (0.00 Byte)
