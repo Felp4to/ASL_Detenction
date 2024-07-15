@@ -75,7 +75,7 @@ Il dataset contenente i file .npy dei landmarks estratti con Mediapipe è scaric
 
 Mediapipe è un framework open-source di Google che fornisce una serie di moduli predefiniti per il rilevamento di parti del corpo, come mani, braccia,  gambe, busto, testa e volto. Nel caso specifico del progetto è stata impiegata la funzione Holistic per il rilevamento dei landmarks di interesse.
 
-![image](https://github.com/user-attachments/assets/31e57f69-0ab4-4341-bced-7ddd9b3392cf)
+<center>![image](https://github.com/user-attachments/assets/31e57f69-0ab4-4341-bced-7ddd9b3392cf)</center>
 
 ![image](https://github.com/user-attachments/assets/e49322c7-98fd-4125-af15-05f9be4e45b9)
 
