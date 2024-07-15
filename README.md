@@ -81,7 +81,7 @@ Mediapipe è un framework open-source di Google che fornisce una serie di moduli
 </div>
 
 <div style="text-align: center;">
-  <img src="[https://your-image-url.com/image.png](https://github.com/user-attachments/assets/e49322c7-98fd-4125-af15-05f9be4e45b9)" alt="Example Image" width="400"/>
+  <img src="https://github.com/user-attachments/assets/e49322c7-98fd-4125-af15-05f9be4e45b9" alt="Example Image" width="600"/>
 </div>
 
 
