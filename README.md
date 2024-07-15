@@ -7,7 +7,7 @@
 - [Dependences](#dependences)
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
-- [Training](#training)
+- [Mediapipe](#mediapipe)
 - [Evaluation](#evaluation)
 - [Results](#results)
 - [Contributing](#contributing)
@@ -67,3 +67,17 @@ pip install -r requirements.txt
 ## Dataset
 
 Il dataset contenente i file .npy dei landmarks estratti con Mediapipe è scaricabile a questo link: 
+
+
+## Mediapipe
+
+![image](https://github.com/user-attachments/assets/9162f3b1-d30b-4bd9-ad84-ea45c11dfea2)
+
+Mediapipe è un framework open-source di Google che fornisce una serie di moduli predefiniti per il rilevamento di parti del corpo, come mani, braccia,  gambe, busto, testa e volto. Nel caso specifico del progetto è stata impiegata la funzione Holistic per il rilevamento dei landmarks di interesse.
+
+![image](https://github.com/user-attachments/assets/31e57f69-0ab4-4341-bced-7ddd9b3392cf)
+
+![image](https://github.com/user-attachments/assets/e49322c7-98fd-4125-af15-05f9be4e45b9)
+
+
+
