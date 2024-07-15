@@ -61,6 +61,7 @@ Le dipendenze da installare sono contenute nel file "requirements.txt". Eseguire
 
 ```bash
 pip install -r requirements.txt
+```
 
 
 ## Dataset
