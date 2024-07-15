@@ -21,6 +21,41 @@ L'obiettivo del progetto è implementare un sistema in grado di rilevare e class
 
 ## Project Structure
 
+AslDetection/
+├── backups/
+├── logs/
+│   ├── cnn/
+│   ├── rnn_gru/
+│   ├── rnn_lstm/
+├── models/
+│   ├── cnn/
+│   ├── rnn_gru/
+│   ├── rnn_lstm/
+├── temp/
+│   ├── X.npz
+│   ├── y.npz
+│   ├── .gitignore
+│   ├── collect_keypoints_1.ipynb
+│   ├── collect_keypoints_2.ipynb
+│   ├── collect_keypoints_3.ipynb
+│   ├── config_loader.py
+│   ├── constants.py
+│   ├── custom_data_generator.py
+│   ├── dataset_features.ipynb
+│   ├── detect_keypoints.py
+│   ├── draw_acc_loss.ipynb
+│   ├── draw_model.ipynb
+│   ├── globali.py
+│   ├── requirements.txt
+│   ├── settings.py
+│   ├── settings.yaml
+│   ├── train_test_1.ipynb
+│   ├── train_test_2.ipynb
+│   ├── train_test_colab.ipynb
+│   ├── WLASL_v0.3.json
+│   ├── youtube_asl_video_ids.txt
+
+
 ## Dependences
 
 Le dipendenze da installare sono contenute nel file "requirements.txt". Eseguire il comando:
