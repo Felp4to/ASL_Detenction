@@ -1,12 +1,10 @@
-# Deep Learning Project
-
-Welcome to the Deep Learning Project repository! This project aims to build and train deep learning models for [specific task, e.g., image classification, natural language processing, etc.].
+# Progetto Deep Learning
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Project Structure](#project-structure)
-- [Installation](#installation)
+- [Dependences](#installation)
 - [Usage](#usage)
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
@@ -19,6 +17,14 @@ Welcome to the Deep Learning Project repository! This project aims to build and 
 
 ## Introduction
 
-This project is focused on developing a deep learning model to [brief description of the problem you're solving]. The goal is to achieve high accuracy and efficiency using state-of-the-art techniques and tools.
+L'obiettivo del progetto è implementare un sistema in grado di rilevare e classificare le gestualità del linguaggio dei segni a partire da una fonte video o stream. Il sistema dovrà essere in grado di identificare i gesti e associarli alla corrispondente classe di appartenenza. Per questo progetto, ho selezionato un gruppo ristretto di parole, comprensivo di lettere, numeri e termini di uso frequente. L'obiettivo principale è addestrare e confrontare diversi modelli di deep learning, utilizzando architetture studiate durante il corso, al fine di valutarne le performance e comprendere meglio le differenze tra di esse.
 
 ## Project Structure
+
+## Dependences
+
+Le dipendenze da installare sono contenute nel file "requirements.txt". Eseguire il comendo:
+
+```bash
+pip install -r requirements.txt
+
