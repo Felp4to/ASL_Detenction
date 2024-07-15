@@ -27,33 +27,33 @@ AslDetection/<br>
 │   ├── cnn/<br>
 │   ├── rnn_gru/<br>
 │   ├── rnn_lstm/<br>
-├── models/
-│   ├── cnn/
-│   ├── rnn_gru/
-│   ├── rnn_lstm/
-├── temp/
-│   ├── X.npz
-│   ├── y.npz
-│   ├── .gitignore
-│   ├── collect_keypoints_1.ipynb
-│   ├── collect_keypoints_2.ipynb
-│   ├── collect_keypoints_3.ipynb
-│   ├── config_loader.py
-│   ├── constants.py
-│   ├── custom_data_generator.py
-│   ├── dataset_features.ipynb
-│   ├── detect_keypoints.py
-│   ├── draw_acc_loss.ipynb
-│   ├── draw_model.ipynb
-│   ├── globali.py
-│   ├── requirements.txt
-│   ├── settings.py
-│   ├── settings.yaml
-│   ├── train_test_1.ipynb
-│   ├── train_test_2.ipynb
-│   ├── train_test_colab.ipynb
-│   ├── WLASL_v0.3.json
-│   ├── youtube_asl_video_ids.txt
+├── models/<br>
+│   ├── cnn/<br>
+│   ├── rnn_gru/<br>
+│   ├── rnn_lstm/<br>
+├── temp/<br>
+│   ├── X.npz<br>
+│   ├── y.npz<br>
+│   ├── .gitignore<br>
+│   ├── collect_keypoints_1.ipynb<br>
+│   ├── collect_keypoints_2.ipynb<br>
+│   ├── collect_keypoints_3.ipynb<br>
+│   ├── config_loader.py<br>
+│   ├── constants.py<br>
+│   ├── custom_data_generator.py<br>
+│   ├── dataset_features.ipynb<br>
+│   ├── detect_keypoints.py<br>
+│   ├── draw_acc_loss.ipynb<br>
+│   ├── draw_model.ipynb<br>
+│   ├── globali.py<br>
+│   ├── requirements.txt<br>
+│   ├── settings.py<br>
+│   ├── settings.yaml<br>
+│   ├── train_test_1.ipynb<br>
+│   ├── train_test_2.ipynb<br>
+│   ├── train_test_colab.ipynb<br>
+│   ├── WLASL_v0.3.json<br>
+│   ├── youtube_asl_video_ids.txt<br>
 
 
 ## Dependences
