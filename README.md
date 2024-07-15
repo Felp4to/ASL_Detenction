@@ -4,7 +4,7 @@
 
 - [Introduction](#introduction)
 - [Project Structure](#project-structure)
-- [Dependences](#installation)
+- [Dependences](#dependences)
 - [Usage](#usage)
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
