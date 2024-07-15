@@ -21,12 +21,12 @@ L'obiettivo del progetto è implementare un sistema in grado di rilevare e class
 
 ## Project Structure
 
-AslDetection/
-├── backups/
-├── logs/
-│   ├── cnn/
-│   ├── rnn_gru/
-│   ├── rnn_lstm/
+AslDetection/<br>
+├── backups/<br>
+├── logs/<br>
+│   ├── cnn/<br>
+│   ├── rnn_gru/<br>
+│   ├── rnn_lstm/<br>
 ├── models/
 │   ├── cnn/
 │   ├── rnn_gru/
