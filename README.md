@@ -23,7 +23,7 @@ L'obiettivo del progetto è implementare un sistema in grado di rilevare e class
 
 ## Dependences
 
-Le dipendenze da installare sono contenute nel file "requirements.txt". Eseguire il comendo:
+Le dipendenze da installare sono contenute nel file "requirements.txt". Eseguire il comando:
 
 ```bash
 pip install -r requirements.txt
