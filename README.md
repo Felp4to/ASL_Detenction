@@ -62,6 +62,7 @@ Le dipendenze da installare sono contenute nel file "requirements.txt". Eseguire
 ```bash
 pip install -r requirements.txt
 
+
 ## Dataset
 
 Il dataset contenente i file .npy dei landmarks estratti con Mediapipe è scaricabile a questo link: 
