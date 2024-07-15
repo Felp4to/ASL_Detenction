@@ -1,7 +1,7 @@
 import numpy as np
 import keras
 
-
+# custom generator for data augmentation
 class CustomDataGenerator(keras.utils.Sequence):
     def __init__(self, X, y=None, batch_size=32, shuffle=True, augment_data=True):
         self.X = X

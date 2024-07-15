@@ -4,7 +4,7 @@ import os
 import shutil
 import constants as cs
 
-
+# read yaml file content
 def read_yaml_fields():
     with open(cs.YAMLFILE, 'r') as ff:
         content = yaml.safe_load(ff)
@@ -13,6 +13,7 @@ def read_yaml_fields():
         return a, c
 
 
+# update yaml file content
 def update_yaml_fields(new_actions, new_counter):
     with open(cs.YAMLFILE, 'r') as ff:
         content = yaml.safe_load(ff)
@@ -22,6 +23,7 @@ def update_yaml_fields(new_actions, new_counter):
         yaml.safe_dump(content, ff)
 
 
+# reset yaml file content
 def reset_yaml_fields():
     current_timestamp_time = time.time()
     file_name, file_extension = os.path.splitext(cs.YAMLFILE)

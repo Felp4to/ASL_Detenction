@@ -7,6 +7,7 @@ mp_holistic = mp.solutions.holistic                     # Holistic model
 mp_drawing = mp.solutions.drawing_utils                 # Drawing utilities
 
 
+# mediapipe detection with color conversion
 def mediapipe_detection(image, model):
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)                  # COLOR CONVERSION BGR 2 RGB
     image.flags.writeable = False                                   # Image is no longer writeable
@@ -16,6 +17,7 @@ def mediapipe_detection(image, model):
     return image, results
 
 
+# draw landmarks
 def draw_landmarks(image, results):
     mp_drawing.draw_landmarks(image, results.face_landmarks, mp_holistic.FACEMESH_TESSELATION)  # Draw face connections
     mp_drawing.draw_landmarks(image, results.pose_landmarks, mp_holistic.POSE_CONNECTIONS)      # Draw pose connections
@@ -25,6 +27,7 @@ def draw_landmarks(image, results):
                               mp_holistic.HAND_CONNECTIONS)                                     # Draw right hand conn.
 
 
+# draw landmarks on the image
 def draw_styled_landmarks(image, results):
     # Draw face connections
     mp_drawing.draw_landmarks(image, results.face_landmarks, mp_holistic.FACEMESH_TESSELATION,
@@ -48,6 +51,7 @@ def draw_styled_landmarks(image, results):
                               )
 
 
+# return keypoints vector
 def extract_keypoints(results):
     pose = np.array([[res.x, res.y, res.z, res.visibility] for res in
                      results.pose_landmarks.landmark]).flatten() if results.pose_landmarks else np.zeros(33 * 4)

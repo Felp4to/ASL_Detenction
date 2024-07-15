@@ -1,4 +1,4 @@
-YAMLFILE = "settings.yaml"  # actions: !!set { }   counter: { }
+YAMLFILE = "settings.yaml"
 KEYPOINTS_FOLDER = "./dataset/keypoints"
 VIDEOS_FOLDER = "./dataset/videos"
 MODELS_FOLDER = "./models"
