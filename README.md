@@ -8,11 +8,7 @@
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
 - [Mediapipe](#mediapipe)
-- [Evaluation](#evaluation)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
@@ -67,6 +63,10 @@ pip install -r requirements.txt
 ## Dataset
 
 Il dataset contenente i file .npy dei landmarks estratti con Mediapipe è scaricabile a questo link: 
+
+
+## Model Architecture
+
 
 
 ## Mediapipe
