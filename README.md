@@ -81,5 +81,12 @@ Mediapipe è un framework open-source di Google che fornisce una serie di moduli
 </div>
 
 
+## Results
+
+Accuracy
+  - CNN: 0.93
+  - RNN con LSTM: 0.86
+  - RNN con GRU: 0.86
+
 
 
