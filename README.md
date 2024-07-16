@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 ## Dataset
 
-Il dataset contenente i file .npy dei landmarks estratti con Mediapipe è scaricabile a questo link: 
+Il dataset contenente i file .npy dei landmarks estratti con Mediapipe è scaricabile a questo link: <a href="https://drive.google.com/drive/folders/1H2aMWnAQuOfzBfWmw3EBKS3-IQIwGTRB"></a>
 
 
 ## Model Architecture
