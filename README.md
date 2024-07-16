@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 ## Dataset
 
-Il dataset contenente i file .npy dei landmarks estratti con Mediapipe è scaricabile a questo link: <a href="https://drive.google.com/drive/folders/1H2aMWnAQuOfzBfWmw3EBKS3-IQIwGTRB"></a>
+Il dataset contenente i file .npy dei landmarks estratti con Mediapipe è scaricabile a questo link: https://drive.google.com/drive/folders/1H2aMWnAQuOfzBfWmw3EBKS3-IQIwGTRB
 
 
 ## Model Architecture
@@ -80,6 +80,13 @@ Mediapipe è un framework open-source di Google che fornisce una serie di moduli
   <img src="https://github.com/user-attachments/assets/31e57f69-0ab4-4341-bced-7ddd9b3392cf" alt="Example Image" width="400"/>
 </div>
 
+
+## Results
+
+Accuracy
+  - CNN: 0.93
+  - RNN con LSTM: 0.86
+  - RNN con GRU: 0.86
 
 
 
